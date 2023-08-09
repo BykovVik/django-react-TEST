@@ -1,0 +1,76 @@
+/*****************************************MAIN***************************************************************************/
+.background_wrap {
+    background-image: url("../public/media/background.png");
+    background-position:right;
+    background-size: cover;
+    padding: 1px 300px;
+    color: white;
+   
+}
+/*****************************************NAVIGATION******************************************************/
+nav {
+    margin-bottom: 100px;
+}
+.navbar-brand {
+    width: 20%;
+}
+.navbar-brand > img {
+    width: 100%;
+}
+.nav-link {
+    color: white;
+    font-family: Museo;
+    font-weight: 700;
+    margin-left: 40px;
+}
+.nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: grey;
+    text-decoration: underline;
+}
+/*********************************************HEADER_TITLE****************************************************************/
+.header_title > h1 {
+    font-size: 58px;
+    font-weight: 400;
+    color: transparent;    
+	-webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, white, rgb(255, 60, 0));
+}
+.header_title > p {
+    font-size: 25px;
+    color: transparent;    
+	-webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, white, rgb(255, 60, 0));
+}
+button {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../public/media/button.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border: none;
+    padding: 1% 3%;
+    font-size: 14px;
+    margin-top: 70px;
+}
+/*****************************************************HEADER_BLOCKS********************************************************/
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.square {
+    width: 50%;
+    text-align: center;
+    font-family: Museo;
+    font-weight: 700;
+}
+.top_text, .bottom_text {
+    font-size: 18px;
+}
+.num_text {
+    font-size: 64px;
+}

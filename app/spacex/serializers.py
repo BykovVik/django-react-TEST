@@ -5,7 +5,7 @@ class MenuItemSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = MenuItems
-        fields = ('title')
+        fields = ("__all__")
 
 
 class BlocksSerializer(serializers.ModelSerializer):
