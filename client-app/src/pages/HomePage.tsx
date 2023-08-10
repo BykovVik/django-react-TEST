@@ -11,7 +11,7 @@ const HomePage = () => {
                 <Col xxl={7} xl={7} lg={7} md={12} sm={12} className="header_title">
                     <h1>ПУТЕШЕСТВИЕ</h1>
                     <p>на красную планету</p>
-                    <button>Начать путешествие</button>
+                    <a id="start_travel">Начать путешествие</a>
                 </Col>
                 <Col xxl={5} xl={5} lg={5} md={12} sm={12} className="blocks">
                     <Blocks/>

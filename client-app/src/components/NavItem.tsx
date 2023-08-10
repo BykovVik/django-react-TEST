@@ -10,7 +10,6 @@ const NavLine = () => {
         const get_header_blocks = async() => {
             await http.get('/api/get-nav-item')
             .then((result:any) => {
-                console.log("ЭТООО", result.data)
                 setNavItems(result.data)
             })
         }
@@ -20,7 +19,7 @@ const NavLine = () => {
     return(
         <Navbar expand="lg">
             <Navbar.Brand href="#home"><img src="./media/logo.png" alt="img"/></Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
                 <Nav>
                     <Nav.Link href="#home" id="home_link">Главная</Nav.Link>
